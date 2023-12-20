@@ -1,3 +1,3 @@
--- Задание 9: Отсортировать в обратном алфавитном порядке строки таблицы Person.AddressType в соответствии с полем Name. Показать поля AddressTypeID и Name.
+-- Р—Р°РґР°РЅРёРµ 9: РћС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ РІ РѕР±СЂР°С‚РЅРѕРј Р°Р»С„Р°РІРёС‚РЅРѕРј РїРѕСЂСЏРґРєРµ СЃС‚СЂРѕРєРё С‚Р°Р±Р»РёС†С‹ Person.AddressType РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ РїРѕР»РµРј Name. РџРѕРєР°Р·Р°С‚СЊ РїРѕР»СЏ AddressTypeID Рё Name.
 SELECT AddressTypeID, Name FROM Person.AddressType
 ORDER BY Name DESC;

@@ -1,2 +1,2 @@
--- Задание 2: Показать поля ProductModelID, IllustrationID из таблицы Production.ProductModelIllustration.
+-- Р—Р°РґР°РЅРёРµ 2: РџРѕРєР°Р·Р°С‚СЊ РїРѕР»СЏ ProductModelID, IllustrationID РёР· С‚Р°Р±Р»РёС†С‹ Production.ProductModelIllustration.
 SELECT ProductModelID, IllustrationID FROM Production.ProductModelIllustration;

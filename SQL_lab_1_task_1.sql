@@ -1,2 +1,2 @@
--- Задание 1: Показать все поля из таблицы Production.ProductDocument.
+-- Р—Р°РґР°РЅРёРµ 1: РџРѕРєР°Р·Р°С‚СЊ РІСЃРµ РїРѕР»СЏ РёР· С‚Р°Р±Р»РёС†С‹ Production.ProductDocument.
 SELECT * FROM Production.ProductDocument;

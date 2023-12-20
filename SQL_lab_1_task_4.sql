@@ -1,3 +1,3 @@
--- Задание 4: Из таблицы HumanResources.JobCandidate показать ID кандидатов на должность (JobCandidateID), ID сотрудников (BusinessEntityID) и резюме ([Resume]). Показать только существующие ID сотрудников.
+-- Р—Р°РґР°РЅРёРµ 4: РР· С‚Р°Р±Р»РёС†С‹ HumanResources.JobCandidate РїРѕРєР°Р·Р°С‚СЊ ID РєР°РЅРґРёРґР°С‚РѕРІ РЅР° РґРѕР»Р¶РЅРѕСЃС‚СЊ (JobCandidateID), ID СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ (BusinessEntityID) Рё СЂРµР·СЋРјРµ ([Resume]). РџРѕРєР°Р·Р°С‚СЊ С‚РѕР»СЊРєРѕ СЃСѓС‰РµСЃС‚РІСѓСЋС‰РёРµ ID СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ.
 SELECT JobCandidateID, BusinessEntityID, [Resume] FROM HumanResources.JobCandidate
 WHERE BusinessEntityID IS NOT NULL;
