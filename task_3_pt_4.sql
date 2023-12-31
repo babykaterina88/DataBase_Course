@@ -1,4 +1,6 @@
--- Показать список покупателей (CustomerID), которые имеют несколько стоимостей доставки (Freight), из таблицы Sales.SalesOrderHeader, используя SELF JOIN.
+-- Показать список покупателей (CustomerID),
+-- которые имеют несколько стоимостей доставки (Freight),
+-- из таблицы Sales.SalesOrderHeader, используя SELF JOIN.
 SELECT DISTINCT 
   "s1"."CustomerID"
 FROM 

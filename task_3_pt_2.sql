@@ -1,4 +1,6 @@
--- Показать список складов (поле "Name"), в котором указано, есть на складе товар с некоторым ID или нет, из таблиц Production.Location, Production.WorkOrderRouting, используя LEFT OUTER JOIN.
+-- Показать список складов (поле "Name"), в котором указано, 
+-- есть на складе товар с некоторым ID или нет, из таблиц Production.Location, Production.WorkOrderRouting,
+-- используя LEFT OUTER JOIN.
 SELECT 
   "loc"."Name" AS "LocationName",
   CASE 

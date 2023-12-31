@@ -1,4 +1,6 @@
--- Показать список людей (поля "FirstName", "LastName"), в котором указано, есть ли у человека часы больничного (SickLeaveHours) или нет, из таблиц HumanResources.Employee, Person.Person, используя RIGHT OUTER JOIN.
+-- Показать список людей (поля "FirstName", "LastName"), 
+--в котором указано, есть ли у человека часы больничного (SickLeaveHours) или нет, 
+-- из таблиц HumanResources.Employee, Person.Person, используя RIGHT OUTER JOIN.
 SELECT 
   "p"."FirstName", 
   "p"."LastName",

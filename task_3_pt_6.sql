@@ -1,4 +1,6 @@
--- Показать список имен (FirstName) начинающихся на "N", которые имеют несколько фамилий (LastName) из таблицы Person.Person, используя SELF JOIN.
+-- Показать список имен (FirstName) 
+-- начинающихся на "N", которые имеют несколько фамилий (LastName) 
+-- из таблицы Person.Person, используя SELF JOIN.
 SELECT DISTINCT 
   "p1"."FirstName"
 FROM 

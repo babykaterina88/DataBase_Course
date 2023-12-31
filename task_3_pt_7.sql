@@ -1,4 +1,6 @@
--- Показать комбинированный список таблиц Production.Product по полям ProductID, ListPrice, Purchasing.PurchaseOrderDetail по полям ProductID, UnitPrice, используя UNION.
+-- Показать комбинированный список таблиц Production.Product 
+-- по полям ProductID, ListPrice, Purchasing.PurchaseOrderDetail 
+-- по полям ProductID, UnitPrice, используя UNION.
 SELECT 
   "ProductID", 
   "ListPrice"::numeric AS "Price"
@@ -14,4 +16,3 @@ FROM
   "Purchasing"."PurchaseOrderDetail"
 WHERE 
   "UnitPrice" IS NOT NULL;
-
