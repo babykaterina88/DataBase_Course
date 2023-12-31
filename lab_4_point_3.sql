@@ -4,15 +4,17 @@
   Показать поля [Name], Style и Color.
 */
 SELECT 
-    "Name", 
-    "Style", 
-    "Color" 
+    P."Name", 
+    P."Style", 
+    P."Color" 
 FROM 
-    "Production"."Product" 
+    "Production"."Product" P
 WHERE 
-    "Style" IS NOT NULL 
-    AND "Color" IS NOT NULL
-GROUP BY 
-    "Style", "Color", "Name"
-HAVING 
-    COUNT(*) = 1;
+    P."Style" IS NOT NULL 
+    AND P."Color" IS NOT NULL
+    AND (SELECT COUNT(DISTINCT P2."Style") 
+         FROM "Production"."Product" P2
+         WHERE P2."ProductID" = P."ProductID") = 1
+    AND (SELECT COUNT(DISTINCT P2."Color") 
+         FROM "Production"."Product" P2
+         WHERE P2."ProductID" = P."ProductID") = 1;
